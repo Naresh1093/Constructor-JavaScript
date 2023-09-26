@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Custom constructor</h3>
+
+    <script>
+        // class constructor 
+        function Person() {
+            var x = 15;
+            this.name = "Naresh" ;
+            this.age = 20 ;
+            this.mobile = 8688656875 ;
+            this.email = "naresh@gmail.com";
+            this.display = function() {
+                document.write (`<h3> display function </h3>`);  
+                  
+            }
+
+                   
+        }
+             var a = new Person(a);
+
+             console.log(a);
+
+                     document.write (`<h3> ${ a.name } </h3>`);  //instance.key
+                     document.write (`<h3> ${ a["mobile"] } </h3>`);  //instance.key
+                     document.write (`<h3> ${ a.email } </h3>`);  
+                     document.write (`<h3> ${ a.age } </h3>`); 
+                     
+                    a.display();
+
+    </script>
+</body>
+</html>
